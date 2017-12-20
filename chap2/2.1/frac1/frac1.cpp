@@ -53,8 +53,6 @@ int main(){
 
     in >> maxDen;
 
-    
-
     for(int i = 1; i <= maxDen; i++){
         for(int j = 1; j < i; j++){
             fractions.push_back (initFrac(j, i));
