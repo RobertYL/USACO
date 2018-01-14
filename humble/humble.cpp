@@ -1,6 +1,6 @@
 /*
 ID: rob3rty1
-PROB: 
+PROB: humble
 LANG: C++11
 */
 
@@ -14,8 +14,14 @@ LANG: C++11
 using namespace std;
 
 int main(){
-    ifstream in ("root.in");
-    ofstream out ("root.out");
+    ifstream in ("humble.in");
+    ofstream out ("humble.out");
     
+    long S, N;
+
+    in >> S >> N;
+
+    for(int i = 0; i < )
+
     return 0;
 }
