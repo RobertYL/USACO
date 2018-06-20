@@ -4,6 +4,8 @@ PROB:
 LANG: C++11
 */
 
+#define REP(i, a, b) for (int i = int(a); i < int(b); i++)
+
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
