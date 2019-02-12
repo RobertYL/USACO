@@ -1,6 +1,6 @@
 /*
 ID: rob3rty1
-PROB: 
+PROB: cowsignal
 LANG: C++11
 */
 
@@ -20,8 +20,23 @@ using namespace std;
 
 int main(){
 	ios::sync_with_stdio(false);
-	ifstream in ("root.in");
-    ofstream out ("root.out");
+	ifstream in ("cowsignal.in");
+    ofstream out ("cowsignal.out");
+    
+    int M, N, K;
+    in >> M >> N >> K;
+    
+    string row;
+    
+    REP(i, 0, M){
+        in >> row;
+        REP(j, 0, K){
+            REP(k, 0, N)
+                REP(l, 0, K)
+                    out << row[k];
+            out << "\n";
+        }
+    }
     
     return 0;
 }
